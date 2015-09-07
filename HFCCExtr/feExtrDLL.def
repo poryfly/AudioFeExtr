@@ -1,0 +1,10 @@
+; feExtrDLL.def : feExtrDLL-V1.1.0.
+
+LIBRARY      "feExtrDLL"
+DESCRIPTION  'feExtrDLL Windows Dynamic Link Library'
+
+EXPORTS
+	FeatureExtraction_File
+	FeatureExtraction_initialize
+	FeatureExtraction_Buf_Discard
+	FeatureExtraction_uninitialize
